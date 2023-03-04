@@ -1,4 +1,5 @@
 import React from 'react'
+import NavButton from './NavButton';
 
 function Header() {
   return (
@@ -11,6 +12,16 @@ function Header() {
                 <p className='text-xs text-emerald-500 truncate'>User...</p>
             </div>
         </div>
+
+        <div>
+          <div className='bg-[#0A1F1C]'>
+            <NavButton title='Buy Tickets'/>
+            <NavButton title='Logout'/>
+            {/* buton */}
+            {/* buton */}
+          </div>
+        </div>
+
     </div>
 
     

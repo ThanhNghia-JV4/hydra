@@ -5,7 +5,7 @@ import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[#000000]">
+    <div className="bg-[#091B18] min-h-screen flex flex-col">
       <Head>
         <title>Hydra Lottery</title>
       </Head>
