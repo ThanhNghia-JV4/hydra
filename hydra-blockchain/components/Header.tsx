@@ -1,9 +1,10 @@
 import React from 'react'
 import NavButton from './NavButton';
+import { Bars3BottomLeftIcon, Bars3BottomRightIcon, BeakerIcon } from '@heroicons/react/24/solid'
 
 function Header() {
   return (
-    <div>
+    <header className='grid grid-cols-2'>
         <div className='flex items-center space-x-2'>
             <img className='rounded-full h-20 w-20' src='https://i.imgur.com/fVqpw2f.png' alt='logo'/>
         
@@ -14,15 +15,20 @@ function Header() {
         </div>
 
         <div>
-          <div className='bg-[#0A1F1C]'>
-            <NavButton title='Buy Tickets'/>
+          <div className='bg-[#0A1F1C] p-4 space-x-2'>
+            <NavButton isActive title='Buy Tickets'/>
             <NavButton title='Logout'/>
             {/* buton */}
             {/* buton */}
           </div>
         </div>
 
-    </div>
+        <div>
+          <Bars3BottomRightIcon className='h-8 w-8 text-white cursor-pointer'/>
+        </div>
+
+
+    </header>
 
     
   );
