@@ -4,7 +4,7 @@ import { Bars3BottomLeftIcon, Bars3BottomRightIcon, BeakerIcon } from '@heroicon
 
 function Header() {
   return (
-    <header className='grid grid-cols-2'>
+    <header className='grid grid-cols-2 md:grid-cols-5 justify-between items-center p-5'>
         <div className='flex items-center space-x-2'>
             <img className='rounded-full h-20 w-20' src='https://i.imgur.com/fVqpw2f.png' alt='logo'/>
         
