@@ -14,7 +14,7 @@ function Header() {
             </div>
         </div>
 
-        <div>
+        <div className='hidden md:flex md:col-span-3 items-center justify-center rounded-md'>
           <div className='bg-[#0A1F1C] p-4 space-x-2'>
             <NavButton isActive title='Buy Tickets'/>
             <NavButton title='Logout'/>
@@ -23,10 +23,15 @@ function Header() {
           </div>
         </div>
 
-        <div>
+        <div className='flex flex-col ml-auto text-right'>
           <Bars3BottomRightIcon className='h-8 w-8 text-white cursor-pointer'/>
+          
+          <span className='md:hidden'>
+          <NavButton title='Logout' />
+          </span>
         </div>
 
+        
 
     </header>
 
